@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* styling the Heading  */
+h2{
+    text-align: center;
+    margin-top: 111px;
+    color: brown;
+}
+
+/* styling the buttons with button container  */
+
+.btnContainer{
+    width: 70%;
+    height: 20vh;
+    border: 2px solid black;
+    border-radius: 45px;
+    background-color: rgb(177, 222, 92);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 80px;
+    padding-bottom: 111px;
+    margin: 55px auto;
+}
